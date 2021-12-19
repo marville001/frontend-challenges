@@ -13,7 +13,7 @@ const Header = () => {
           href="https://www.fiverr.com/martin_devs/create-node-js-reactjs-application"
           target="_blank"
           rel="noreferrer"
-          className="bg-slate-100 rounded-full px-4 py-1 text-indigo-500 font-bold shadow-lg hover:bg-slate-200 hover:text-indigo-600">
+          className="bg-slate-100 rounded-full px-6 py-2 text-indigo-500 font-bold shadow-lg hover:bg-slate-200 hover:text-indigo-600">
             Hire Me
           </a>
         </div>

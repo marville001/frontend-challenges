@@ -18,6 +18,7 @@ const App = () => {
           <Route path="/challenge/osc3do" exact element={<ComingSoon/>} />
           <Route path="/challenge/ttd4do" exact element={<ComingSoon/>} />
           <Route path="/challenge/ipc5do" exact element={<ComingSoon/>} />
+          <Route path="/challenge/iat6df" exact element={<ComingSoon/>} />
         </Routes>
       </div>
       <Footer />
