@@ -2,21 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 
-const ChallengeCard = ({ key }) => {
+const ChallengeCard = ({ challenge, index }) => {
   return (
-    <Link to="/project/xyz" className="bg-slate-100 shadow-lg p-5 rounded-md">
-      <h2 className="text-indigo-500">Challenge Name</h2>
+    <Link to={`/project/${challenge.id}`} className="bg-slate-100 shadow-lg p-5 rounded-md">
+      <h2 className="text-indigo-500"> <span className="text-indigo-300">#{index}</span> {challenge.name}</h2>
       <img
-        src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/so0b0hpmowz5ujjwbhkp.jpg"
+        src={challenge.image}
         alt="Project XYZ"
         className="rounded-md my-4 h-52 w-full"
       />
       <div className="flex justify-between text-indigo-400">
-      <Link className="text-sm flex items-center" to="/project/xyz">
+      <Link className="text-sm flex items-center" to={`/project/${challenge.id}`}>
           <FaGithub className="mr-1" />
           View Challenge
         </Link>
-
         <a 
         target="_blank"
         className="text-sm flex items-center" 
