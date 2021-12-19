@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className='bg-gray-100 h-screen'>
       <Header />
-      <div className='min-h-full'>
+      <div className='min-h-full bg-slate-200'>
         <Routes>
           <Route path="/" element={<Challenges/>} />
         </Routes>

@@ -1,9 +1,24 @@
 {
   "challenges": [
     {
-      "id": "sgw2ss2",
-      "name": "Tip Calculator App",
-      "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/so0b0hpmowz5ujjwbhkp.jpg"
-    }
+        "id": "tca1do",
+        "name": "Tip Calculator App",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/so0b0hpmowz5ujjwbhkp.jpg"
+      },
+      {
+        "id": "gusa2df",
+        "name": "GitHub User Search App",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/vnhorbifareii6uedrt4.jpg"
+      },
+      {
+        "id": "osc3do",
+        "name": "Order Summary Component",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/gh4wbxnbnf9wqezb0b6y.jpg"
+      },
+      {
+        "id": "ttd4do",
+        "name": "Time Tracking Dashboard",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/dgmrkrfyzvyzwuwl7vac.jpg"
+      }
   ]
 }
