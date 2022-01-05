@@ -9,7 +9,7 @@ import React from "react";
 
 const TipCalculatorApp = () => {
   return (
-    <div className="flex items-center justify-center min-h-[90vh]">
+    <div className="flex items-center justify-center min-h-[90vh] pt-4">
       <div className="bg-white p-5 rounded-lg grid grid-cols-1 md:grid-cols-2 gap-2">
         <div>
           <div className="relative bg-slate-100 mb-6">
