@@ -1,3 +1,3 @@
-# Some of My FrontEnd Challenges
+## Some of My FrontEnd Challenges
 
-# Click [here](https://myfrontendchallenges.netlify.app/) to view the application
+Click [here](https://myfrontendchallenges.netlify.app/) to view the application
